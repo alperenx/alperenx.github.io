@@ -34,8 +34,6 @@ width:916px;
 height:5px;
 }
 
-
-
 #header
 {
 background-image:url(header.png);
@@ -186,5 +184,30 @@ color:#FFFFFF;
 #footer a:hover{
 text-decoration:none;
 color:#C9E1FA;
+}
+
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
